@@ -1,0 +1,28 @@
+.text-white{
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.9);
+}
+.text-dark{
+    text-shadow: 1px 1px 1px rgba(168, 159, 161, 0.9);
+}
+.menu{
+    color: white;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.9);
+}
+.menu:hover::after{
+    border-bottom: 3px solid #07f013;
+    content: '';
+    display: block;
+    margin: auto;
+    padding-bottom: 5px;
+    margin-bottom: -8px;
+}
+
+.jumbotron{
+    background-image: url(../img/background.jpeg);
+    height:470px;
+    background-size: cover;
+}
+.kata{
+    color: #eeeeee; 
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 15);
+}
